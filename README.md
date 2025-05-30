@@ -1,5 +1,5 @@
 
-# 🇧🇷 Projeto de Modernização do Site Casa do Micro-ondas
+# 🇧🇷 Projeto de Modernização do Site Casa do Micro-Ondas
 
 ## 📜 Descrição do Projeto
 
@@ -44,7 +44,7 @@ Este projeto será desenvolvido em equipe com o objetivo de modernizar o site at
 
 ---
 
-# 🇺🇸 Website Modernization Project - Casa do Micro-ondas
+# 🇺🇸 Website Modernization Project - Casa do Micro-Ondas
 
 ## 📜 Project Description
 
