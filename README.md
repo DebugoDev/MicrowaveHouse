@@ -62,7 +62,6 @@ This project will be developed as a team with the goal of modernizing the curren
    - 📄 Creation of a PDF document, formatted according to **ABNT** standards, detailing the project with a before-and-after analysis.
    - 🔗 Inclusion of the **GitHub** repository link with all members listed as collaborators.
    - 📑 Description of task division among members and an individual performance report.
-   - ⏰ Deadline: from **7:00 PM to 10:10 PM**, following the previously agreed-upon late arrival rules.
 
 2. **💻 Phase Two - Development:**
    - 🚀 Implementation of the proposed solutions from the documentation.
