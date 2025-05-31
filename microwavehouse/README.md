@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+# 🇧🇷 Projeto de Modernização do Site Casa do Micro-Ondas / 🇺🇸 Website Modernization Project - Casa do Micro-Ondas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📜 Descrição do Projeto / Project Description
 
-Currently, two official plugins are available:
+Este projeto será desenvolvido em equipe com o objetivo de modernizar o site atualmente em produção da Casa do Micro-Ondas. O foco inicial é analisar problemas existentes, propor melhorias e implementar soluções que aprimorem a experiência dos usuários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project will be developed by a team aiming to modernize the currently live Casa do Micro-Ondas website. The initial focus is to analyze existing issues, propose improvements, and implement solutions to enhance the user experience.
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas / Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React com TypeScript / React with TypeScript  
+- Tailwind CSS  
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Como rodar o projeto / How to Run the Project
+
+1. Clone este repositório / Clone this repository:
+
+```bash
+git clone https://github.com/DebugoDev/MicrowaveHouse.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Acesse a pasta do projeto / Navigate to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+cd microwavehouse
 ```
+
+3. Instale as dependências / Install dependencies:
+
+```bash
+npm install
+# ou / or
+yarn install
+```
+
+4. Inicie o servidor de desenvolvimento / Start the development server:
+
+```bash
+npm start
+# ou / or
+yarn start
+```
+
+O projeto estará rodando em: [http://localhost:5173](http://localhost:5173)  
+The project will be running at: [http://localhost:5173](http://localhost:5173)
+
+## Build para produção / Production Build
+
+```bash
+npm run build
+# ou / or
+yarn build
+```
+
+## Estrutura do projeto / Project Structure
+
+- `src/` — código fonte em React e TypeScript / source code in React and TypeScript  
+- `public/` — arquivos públicos estáticos / static public files  
+- `package.json` — dependências e scripts do projeto / project dependencies and scripts
+
+## Contribuições / Contributions
+
+Contribuições são bem-vindas! Sinta-se livre para abrir issues ou pull requests.  
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## Licença / License
+
+Este projeto está licenciado sob a Licença MIT — veja o arquivo LICENSE para detalhes.  
+This project is licensed under the MIT License — see the LICENSE file for details.
