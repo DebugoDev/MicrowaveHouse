@@ -58,7 +58,7 @@ const Contact = forwardRef<HTMLDivElement, {}>((_props, ref) => {
                 <meta property="og:type" content="website" />
             </Helmet>
 
-            <section ref={ref} id="contato" className="py-20 bg-gray-50">
+            <section ref={ref} id="contato" className="py-20 bg-gray-50 mt-7">
                 <div className="max-w-4xl mx-auto px-4">
                     <h1 className="text-4xl font-bold text-center text-primary mb-10">
                         Fale Conosco
