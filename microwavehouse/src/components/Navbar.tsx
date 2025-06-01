@@ -16,7 +16,7 @@ const Navbar = () => {
     ];
 
     return (
-        <header className="w-full bg-background text-primary shadow-md h-16">
+        <header className="w-full bg-background text-primary shadow-md h-16 fixed top-0 z-50">
             <div className="max-w-7xl mx-auto flex justify-between items-center h-full px-4">
                 <Link to="/">
                     <img
@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
 
             {isOpen && (
-                <nav className="md:hidden bg-background text-primary px-4 pb-4">
+                <nav className="md:hidden bg-background text-primary px-4 pb-4 shadow-md">
                     <ul className="flex flex-col gap-4">
                         {navItems.map((item) => (
                             <li key={item.path}>
@@ -66,6 +66,7 @@ const Navbar = () => {
                 </nav>
             )}
         </header>
+
     );
 };
 
