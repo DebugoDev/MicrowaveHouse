@@ -36,9 +36,9 @@ yarn install
 4. Inicie o servidor de desenvolvimento / Start the development server:
 
 ```bash
-npm start
+npm run dev
 # ou / or
-yarn start
+yarn run dev
 ```
 
 O projeto estará rodando em: [http://localhost:5173](http://localhost:5173)  
@@ -57,11 +57,6 @@ yarn build
 - `src/` — código fonte em React e TypeScript / source code in React and TypeScript  
 - `public/` — arquivos públicos estáticos / static public files  
 - `package.json` — dependências e scripts do projeto / project dependencies and scripts
-
-## Contribuições / Contributions
-
-Contribuições são bem-vindas! Sinta-se livre para abrir issues ou pull requests.  
-Contributions are welcome! Feel free to open issues or pull requests.
 
 ## Licença / License
 
