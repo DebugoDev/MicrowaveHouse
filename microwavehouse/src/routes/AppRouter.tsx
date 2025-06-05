@@ -1,10 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from '../components/Navbar';
 import Home from '../pages/HomePage/Home';
 import Localization from '../pages/LocalizationPage/Localization';
 import Photos from '../pages/PhotosPage/Photos';
 import Contact from '../pages/ContactPage/Contact';
-import Footer from '../components/Footer';
 import Layout from '../layouts/Layout';
 
 const AppRouter = () => {
