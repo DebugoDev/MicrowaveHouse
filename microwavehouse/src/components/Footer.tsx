@@ -39,7 +39,6 @@ export default function Footer() {
                         <li>📍 Rua Saturnino Miranda, 84 - Santa Felicidade</li>
                         <li>📞 (41) 3332-8000</li>
                         <li>📱 (41) 98516-3602</li>
-                        <li>✉️ contato@seudominio.com</li>
                     </ul>
                 </div>
             </div>
