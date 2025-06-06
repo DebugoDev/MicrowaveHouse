@@ -10,7 +10,7 @@ const Photos = () => {
 
                 <meta property="og:title" content="Fale Conosco - Casa do Micro-Ondas" />
                 <meta property="og:description" content="Estamos prontos para te atender. Veja nossos canais de contato." />
-                <meta property="og:url" content="https://www.casadomicroondas.com.br/fotos" />
+                <meta property="og:url" content="https://casadomicroondas.vercel.app/fotos" />
                 <meta property="og:type" content="website" />
             </Helmet>
 
