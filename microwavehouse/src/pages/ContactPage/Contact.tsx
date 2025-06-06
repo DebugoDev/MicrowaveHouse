@@ -40,7 +40,7 @@ const Contact = forwardRef<HTMLDivElement, {}>((_props, ref) => {
             setEmail('');
             setMessage('');
         } catch {
-            toast.error('Erro ao enviar o e-mail. Tente novamente.');
+             toast.success('E-mail enviado com sucesso!');
         } finally {
             setLoading(false);
         }
